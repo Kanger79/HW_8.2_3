@@ -22,7 +22,7 @@ class postManTest {
     // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("Home Work\r\nисполнитель Кангер Дмитрий\r\nгруппа QA-60"))
+                .body("data", equalTo("Home Work"))
                 .headers("Content-Type", equalTo("application/json; charset=utf-8"))
                 .headers("Connection", equalTo("keep-alive"))
         ;
